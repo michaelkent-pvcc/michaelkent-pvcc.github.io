@@ -76,7 +76,7 @@ def show_results():
         print('-----------------------------------')
         print('           PVCC Reciept            ')
         print('-----------------------------------')
-        print('In State Fee     +$ ' + format(instamt, moneyf))
+        print('Institution Fee  +$ ' + format(instamt, moneyf))
         print('Capital Fee      +$ ' + format(capitalamt, moneyf))
         print('Activity Fee     +$ ' + format(activityamt, moneyf))
         print('Tuition Amount   +$ ' + format(tuitionamt, moneyf))
