@@ -198,7 +198,7 @@ def show_results():
     print(frabiesT)
     print(rhinoT)
     print(        '-------------------------------------')
-    print(        '             Pet Reciept             ')
+    print(        '             Pet Receipt             ')
     print(        '-------------------------------------')
     if bordT==True:
         print(    'Bordatella Vaccine      $ ' + format(BORD, moneyf))
