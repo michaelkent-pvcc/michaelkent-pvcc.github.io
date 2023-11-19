@@ -104,17 +104,17 @@ def perform_calculations():
     total = subtotal+taxamt
 
 def display_result():  
-    moneyformat  = '8,.2f'
+    moneyformat  = '6,.2f'
     line =('-------------------------------')
     print (line)
     print ('******* PIZZA PLACE YAY *******')
     print (line)
-    print ('Small Pizza    '+ str(num_small)+'x       $' + format(cost_small, moneyformat))
+    print ('Small Pizza    '+ str(num_small)+'x      $' + format(cost_small, moneyformat))
     print ('Medium Pizza   '+ str(num_medium)+'x      $' + format(cost_medium, moneyformat))
-    print ('Large Pizza    '+ str(num_large)+'x       $' + format(cost_large, moneyformat))
-    print ('X-Large Pizza  '+ str(num_xl)+'x          $' + format(cost_xl, moneyformat))
+    print ('Large Pizza    '+ str(num_large)+'x      $' + format(cost_large, moneyformat))
+    print ('X-Large Pizza  '+ str(num_xl)+'x      $' + format(cost_xl, moneyformat))
     print ('Drinks         '+ str(num_drinks)+'x      $' + format(cost_drinks, moneyformat))
-    print ('Bread Sticks   '+ str(num_breadstix)+'x   $' + format(cost_breadstix, moneyformat))
+    print ('Bread Sticks   '+ str(num_breadstix)+'x      $' + format(cost_breadstix, moneyformat))
     print (line)
     print ('Subtotal:      $'+format(subtotal, moneyformat))
     print ('Tax:           $'+format(taxamt, moneyformat))
