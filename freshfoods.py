@@ -96,13 +96,6 @@ def display_results():
     currency = '8,.2f'
     line ='----------------------------------------------------------------------------------------------------------'
     tab="\t"
-    print(soc_sac)
-    print(line)
-    print(medicare)
-    print(line)
-    print(ret401k)
-    print(line)
-    print(net_pay)
     print(line)
     print('                                           FRESH FOODS MARKET')
     print('                                          WEEKLY PAYROLL REPORT')
